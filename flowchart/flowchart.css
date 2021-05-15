@@ -1,0 +1,39 @@
+#chart-container {
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 420px;
+    /* border: 1px solid #aaa; */
+    overflow: scroll;
+    text-align: center;
+    /* background-image: url("https://www.animenewsnetwork.com/thumbnails/crop1200x630gGE/cms/feature/159287/villainess1.jpg"); */
+}
+
+.orgchart {
+    /* Remove the grid */
+    background-image: none;
+    background-color: lightgray;
+}
+
+.title {
+    display: none;
+    height: 0px;
+    width:fit-content;
+}
+
+.content {
+    height: fit-content !important;
+    width: 200px;
+    /* overflow-wrap: break-word !important;
+    word-break: break-word !important; */
+    white-space: normal !important;
+}
+
+.content.story {
+    background-color: lightgoldenrodyellow !important;
+}
+.content.question {
+    background-color: lightblue !important;
+}
+.content.choice {
+    background-color: lightcoral !important;
+}
